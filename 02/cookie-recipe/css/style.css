@@ -1,0 +1,28 @@
+body {
+	background-color: #FFE;
+	border-style: solid;
+	border-color: #000;
+	border-width: 5px;
+	padding: 20px;
+	margin: 0;
+}
+
+a {
+	color: #900;
+}
+
+h2 {
+	font-family: Arial;
+}
+
+p.italicGrey {
+	color: #8D8D7C;
+	font-style: italic;
+	font-weight: bold;
+}
+
+img {
+	border-style: solid;
+	border-color: #000;
+	border-width: 5px;
+}
