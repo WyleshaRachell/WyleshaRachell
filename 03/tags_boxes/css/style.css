@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+}
+
+h1 {
+	background-color: red;
+}
+
+p {
+	background-color: blue;
+	color: white;
+}
+
+h1, p {
+	padding: 20px;
+	border: 5px solid black;
+}
+
+code {
+	background-color: white;
+	color: black;
+	padding: 5px 2px;
+	border: 1px solid black;
+}
+
+h2 {
+	margin-top: 5px;
+}
+
+li {
+	padding: 5px;
+}
+
+h1, h2, p {
+	margin: 10px;
+}
+
+p code {
+ background-color: red;
+}
