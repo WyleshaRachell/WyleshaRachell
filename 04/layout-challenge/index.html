@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Column Count Test</title>
+
+	<style>
+		.twoColumns {
+    	column-count: 2;
+    	column-gap: 20px;
+		}
+
+		header {
+			margin-bottom: 20px;
+			background: blue;
+		}
+
+		footer {
+			margin-top: 20px;
+			background: blue;
+		}
+
+		#layoutOne aside,
+		#layoutOne section {
+			background-color: grey;
+		}
+
+		#layoutOne * {
+			min-height: 100px;
+		}
+
+		#layoutOneFloat * {
+			min-height: 100px;
+		}
+
+		#layoutOneFloat section,
+		#layoutOneFloat aside {
+			float: left;
+			width: 49%;
+			background: red;
+		}
+		
+		#layoutOneFloat section {
+			margin-right: 2%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Column 1 - Using Float</h1>
+	<div id="layoutOneFloat">
+
+		<header></header>
+		<div class="twoColumnsFloat">
+			<section></section>
+			<aside></aside>
+		</div>
+		<footer></footer>
+	</div>
+	<h1>Column 1 - Using Column Count</h1>
+	<div id="layoutOne">
+
+		<header></header>
+
+		<div class="twoColumns">
+			<section></section>
+			<aside></aside>
+		</div>
+		
+		<footer></footer>
+	</div>
+</body>
+</html>
