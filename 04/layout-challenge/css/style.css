@@ -1,0 +1,126 @@
+/*******This is for Float****/
+
+#twoColumn {
+	margin-bottom: 50px;
+}
+
+#twoColumn header,
+#twoColumn footer,
+#twoColumn aside,
+#twoColumn section{
+	background-color: grey;
+	min-height: 100px;
+}
+
+#twoColumn header {
+	margin-bottom: 15px;
+}
+
+#twoColumn footer {
+	margin-top: 15px;
+	clear: both;
+}
+
+#twoColumn section {
+	float: left;
+	width: 74%;
+	margin-right: 1%
+}
+
+#twoColumn aside {
+	width: 25%;
+	float: left;
+}
+
+#twoColumn .floats {
+	height: 1px;
+	min-height: 100px;
+}
+
+/*******This is for Inline-Block****/
+
+#twoColumn2 header,
+#twoColumn2 footer,
+#twoColumn2 aside,
+#twoColumn2 section{
+	background-color: red;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twoColumn2 header {
+	margin-bottom: 15px;
+}
+
+#twoColumn2 footer {
+	margin-top: 15px;
+}
+
+#twoColumn2 aside,
+#twoColumn2 section {
+	display: inline-block;
+}
+
+#twoColumn2 section {
+	width: 74%;
+	margin-right: 1%;
+}
+
+#twoColumn2 aside {
+	width: 25%;
+}
+
+/*******This is for Multicolumn****/
+
+#twoColumn3 header,
+#twoColumn3 footer,
+#twoColumn3 aside,
+#twoColumn3 section{
+	background-color: green;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twoColumn3 header {
+	margin-bottom: 15px;
+}
+
+#twoColumn3 footer {
+	margin-top: 15px;
+}
+
+.multicolumn {
+	column-count: 3;
+}
+
+/*******This is for flexbox****/
+#twoColumn4 header,
+#twoColumn4 footer,
+#twoColumn4 aside,
+#twoColumn4 section{
+	background-color: blue;
+	min-height: 100px;
+}
+
+#twoColumn4 header {
+	margin-bottom: 15px;
+}
+
+#twoColumn4 footer {
+	margin-top: 15px;
+}
+
+#twoColumn4 .flexbox {
+	display: flex;
+}
+
+#twoColumn4 section {
+	width: 74%;
+	margin-right: 1%;
+}
+
+#twoColumn4 aside {
+	width: 25%;
+}
+
+

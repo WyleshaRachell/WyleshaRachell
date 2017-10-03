@@ -1,0 +1,33 @@
+header {
+	margin-bottom: 15px;
+}
+
+footer {
+	margin-top: 15px;
+}
+
+header,
+aside,
+section,
+footer {
+	background-color: blue;
+	min-height: 100px;
+}
+
+.columns {
+	display: flex;
+}
+
+aside.left {
+	width: 15%;
+	margin-right: 2%;
+}
+
+section {
+	width: 66%;
+}
+
+aside.right {
+	width: 15%;
+	margin-left: 2%;
+}

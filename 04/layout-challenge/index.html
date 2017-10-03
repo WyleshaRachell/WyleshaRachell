@@ -2,71 +2,58 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Column Count Test</title>
-
-	<style>
-		.twoColumns {
-    	column-count: 2;
-    	column-gap: 20px;
-		}
-
-		header {
-			margin-bottom: 20px;
-			background: blue;
-		}
-
-		footer {
-			margin-top: 20px;
-			background: blue;
-		}
-
-		#layoutOne aside,
-		#layoutOne section {
-			background-color: grey;
-		}
-
-		#layoutOne * {
-			min-height: 100px;
-		}
-
-		#layoutOneFloat * {
-			min-height: 100px;
-		}
-
-		#layoutOneFloat section,
-		#layoutOneFloat aside {
-			float: left;
-			width: 49%;
-			background: red;
-		}
-		
-		#layoutOneFloat section {
-			margin-right: 2%;
-		}
-	</style>
+	<title>Layouts</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Column 1 - Using Float</h1>
-	<div id="layoutOneFloat">
-
-		<header></header>
-		<div class="twoColumnsFloat">
-			<section></section>
-			<aside></aside>
-		</div>
-		<footer></footer>
-	</div>
-	<h1>Column 1 - Using Column Count</h1>
-	<div id="layoutOne">
-
+	
+	<h2>Using Floats</h2>
+	<div id="twoColumn">
 		<header></header>
 
-		<div class="twoColumns">
+		<div class="floats">
 			<section></section>
 			<aside></aside>
 		</div>
 		
 		<footer></footer>
 	</div>
+
+	<h2>Using Inline-Block</h2>
+	<div id="twoColumn2">
+		<header></header>
+		<section>
+			Here is some content
+		</section><aside>
+			this is more content
+		</aside><footer>
+			this is footer
+		</footer>
+	</div>
+
+	<h2>Using Multi-Column</h2>
+	<div id="twoColumn3">
+		<header></header>
+
+		<div class="multicolumn">
+			<section></section>
+			<aside></aside>
+		</div>
+		
+		<footer></footer>
+	</div>
+
+	<h2>Using Flex-Box</h2>
+	<div id="twoColumn4">
+		<header></header>
+
+		<div class="flexbox">
+			<section></section>
+			<aside></aside>
+		</div>
+		
+		<footer></footer>
+	</div>
+	
 </body>
 </html>
