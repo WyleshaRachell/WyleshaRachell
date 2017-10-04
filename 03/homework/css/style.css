@@ -103,4 +103,23 @@ header button {
   padding: 15px;
 }
 
+footer {
+  background-color: black;
+  padding: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 26px 75px;
+}
+
+#socialMedia {
+  text-align: center;
+}
+
+#socialMedia .twitter {
+  padding-right: 30px;
+}
+
 
