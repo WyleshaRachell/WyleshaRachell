@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f0efef;
+}
+
+#container {
+  max-width: 960px;
+  width:100%;
+  margin:auto;
+}
+
+header {
+  background-color: #033048;
+}
+
+header h1 {
+  color: #fff;
+}
+
+#content {
+  padding: 30px 50px;
+  overflow: hidden;
+}
+
+#blog,
+#sidebar {
+  float:left;
+}
+
+#blog {
+  width: 79%;
+  margin-right: 1%;
+}
+
+#sidebar {
+  width:20%;
+}
+
+#blog article {
+  padding: 10px 0;
+}
+
+#blog article .readMore {
+  text-align: right;
+}
+
+hr {
+  margin: 20px 0;
+}

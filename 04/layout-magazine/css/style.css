@@ -55,16 +55,21 @@ header nav ul li {
 	width: 14%;
 	float: left;
 	margin-right: 1%;
+	padding-bottom: 99999px;
+	margin-bottom: -99999px;
+	margin-right: -15%;
+	overflow: hidden;
 }
 
 #columnWrapper section#sectionWrapper {
 	width: 85%;
 	float: left;
+	padding-bottom: 99999px;
+	margin-bottom: -99999px;
+	margin-left: 15%;
 }
 
-#row1,
-#row2,
-#row3 {
+#row1, #row2 {
 	margin-bottom: 10px;
 }
 
@@ -93,6 +98,5 @@ header nav ul li {
 }
 
 footer {
-	margin-top: 10px;
-	margin: 0 10px;
+	margin: 10px 10px 0 10px;
 }
