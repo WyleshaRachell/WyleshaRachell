@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms</title>
+</head>
+<body>
+  
+  <form action="">
+    <input type="text" class="input">
+    <input type="submit">
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    
+    $(document).ready(function() {
+      $('form').submit(function(event) {
+        var inputField = $('input').val();
+
+        console.log(inputField);
+
+        event.preventDefault();
+      });
+    });
+  </script>
+</body>
+</html>
