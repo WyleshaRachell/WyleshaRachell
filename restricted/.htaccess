@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "By Invitation Only"
+AuthUserFile /Users/wrachell/Sites/ga/fewd/restricted/.htpassword
+Require valid-user
