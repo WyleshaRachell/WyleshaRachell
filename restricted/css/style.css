@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, 
+footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 150px 0;
+}
+
+input {
+  height: 50px;
+  font-size: 18px;
+  outline: 0;
+  border-color: grey;
+}
+
+#mc_embed_signup {
+    background: yellow;
+    padding: 120px;
+}
+
+#mc_embed_signup .mc-field-group {
+  padding: 0;
+}
+
+#mc_embed_signup .mc-field-group input.email,
+#mc_embed_signup .mc-field-group input#mc-embedded-subscribe {
+  display: inline-block;
+}
+
+#mc_embed_signup .mc-field-group input.email {
+  width: 80%;
+}
+
+#mc_embed_signup .mc-field-group input#mc-embedded-subscribe {
+  width: 20%;
+  max-width: 100px;
+  background-color: black;
+  height: auto;
+  margin-left: 22px;
+}
+
+#mc_embed_signup #mce-responses div {
+    color: black;
+    font-size: 21px;
+    text-align: center;
+}
+
+.indicates-required,
+#mc_embed_signup .mc-field-group label {
+  display:none;
+}
+
